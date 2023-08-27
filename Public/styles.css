@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Updated font-family */
+
+    color: #fff;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #34495e;
+    padding: 1rem 5%;
+    height: 15vh;  /* Adjusted height */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    transform: scale(1.1);  /* Scale effect */
+    transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+    color: #27ae60;
+}
+
+.section {
+    padding: 2rem 5%;  /* Adjusted padding */
+    text-align: center;
+    height: 25vh;  /* Adjusted height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg-gradient-blue {
+    background: linear-gradient(to right, #3498db, #2980b9);
+}
+
+.bg-gradient-green {
+    background: linear-gradient(to right, #2ecc71, #27ae60);
+}
+
+.bg-gradient-pink {
+    background: linear-gradient(to right, #e74c3c, #c0392b);
+}
+
+footer {
+    background-color: #34495e;
+    padding: 1rem 5%;
+    text-align: center;
+    height: 10vh;  /* Adjusted height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
